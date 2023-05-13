@@ -5,7 +5,7 @@ TITLE EXAMPLE
 
 First, we generate functions representing Vanilla gradient descent and Adam algorithms for comparison and performance monitoring. Vanilla gradient descent algorithm of choice is the same as the one presented in class. We set default parameters for learning rate = 0.005 and max iterations = 200.
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
+```{r, include=FALSE, echo=FALSE, warning=FALSE, message=FALSE}
 
 gradient_desc <- function(f, x_init, learning_rate_gd=0.005, max_iters_gd=200){
     
